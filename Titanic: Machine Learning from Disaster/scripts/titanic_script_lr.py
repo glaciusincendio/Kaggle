@@ -105,6 +105,6 @@ df.to_csv(target_data_path+ 'results/' + "submission_lr.csv", index=False)
 
 # save the model to disk
 filename = 'finalized_model_lr.sav'
-pickle.dump(modelrf, open(target_data_path + 'model/' + filename, 'wb'))
+pickle.dump(model, open(target_data_path + 'model/' + filename, 'wb'))
 
 #On submission of Logistic Regression model the score was 0.75598 on 05/11/2019
